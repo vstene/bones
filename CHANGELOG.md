@@ -187,7 +187,7 @@ Author: Eddie Machado
 
 **v1.06 Updates**
 - changed name of default stylesheet to default so it's easier to
-	debug. (having two stylesheets named style is confusing)
+    debug. (having two stylesheets named style is confusing)
 - added clearing class to #inner-header and #inner-footer
 - added bones body class depending on what browser
 - changed the_author to the_author_posts_link in single.php and archive.php
@@ -209,7 +209,7 @@ Author: Eddie Machado
 - fixed the margin on the comments title
 - removed duplicate text-align calls in css **Thanks Dom**
 - added add_theme_support( 'automatic-feed-links' ) replacing
-	the deprecated automatic_feed_links();
+    the deprecated automatic_feed_links();
 - added the language_attributes(); to the html tag
 - replaced attribute_escape with esc_attr() in search.php
 - bloginfo('url') in header replaced with echo home_url()
@@ -230,7 +230,7 @@ Author: Eddie Machado
 - fixed typos in style.css file & logs
 - updated selectivizr to latest version
 - added "embed, ruby, output" to the reset stylesheet based on
-	Eric Meyer's recent reset styles.
+    Eric Meyer's recent reset styles.
 - removed duplicate styles in reset & default stylesheet
 - fixed col460 and changed it to col480
 - added text-align styles to default stylesheet
@@ -242,19 +242,19 @@ Author: Eddie Machado
 
 **v1.04**
 - moved the custom script call and pngfix to the footer
-	from the bones file so it's easier to see what's being
-	called.
+    from the bones file so it's easier to see what's being
+    called.
 - moved apple-touch-icon.png to the library/images folder so
-	file locations are consistent.
+    file locations are consistent.
 - added a log file to keep track of changes
 - fixed html5 video functionality & fallback (w00t!)
 - moved stylesheet call below the wp_head as an experiment.
 - added wp_titletag to the header
 - added pingback function to the header
 - fixed bug where page navi would show up even on pages
-	with only one page of results.
+    with only one page of results.
 - changed the way page navi is called in the archives, search,
-	and index pages.
+    and index pages.
 
 
 **v1.03**
