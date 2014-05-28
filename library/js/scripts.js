@@ -11,8 +11,6 @@
  * need any of it, just remove it. They are meant to be helpers and are
  * not required. It's your world baby, you can do whatever you want.
 */
-
-
 /*
  * Get Viewport Dimensions
  * returns object with viewport dimensions to match css in width and height properties
@@ -24,8 +22,6 @@ function updateViewportDimensions() {
 }
 // setting the viewport width
 var viewport = updateViewportDimensions();
-
-
 /*
  * Throttle Resize-triggered Events
  * Wrap your actions in this function to throttle the frequency of firing them off, for better performance, esp. on mobile.
@@ -39,11 +35,8 @@ var waitForFinalEvent = (function () {
         timers[uniqueId] = setTimeout(callback, ms);
     };
 })();
-
 // how long to wait before deciding the resize has stopped, in ms. Around 50-100 should work ok.
 var timeToWaitForLast = 100;
-
-
 /*
  * Here's an example so you can see how we're using the above function
  *
@@ -83,7 +76,6 @@ var timeToWaitForLast = 100;
  * Keep it light and always make sure the larger viewports are doing the heavy lifting.
  *
 */
-
 /*
  * We're going to swap out the gravatars.
  * In the functions.php file, you can see we're not loading the gravatar
@@ -100,18 +92,13 @@ function loadGravatars() {
   });
     }
 } // end function
-
-
 /*
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
-
   /*
    * Let's fire off the gravatar function
    * You can remove this if you don't need it
   */
   loadGravatars();
-
-
 }); /* end of as page load scripts */

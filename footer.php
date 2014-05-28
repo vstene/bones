@@ -1,7 +1,5 @@
             <footer class="footer" role="contentinfo">
-
                 <div id="inner-footer" class="wrap cf">
-
                     <nav role="navigation">
                         <?php wp_nav_menu(array(
                         'container' => '',                              // remove nav container
@@ -17,18 +15,11 @@
                         'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
                         )); ?>
                     </nav>
-
                     <p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
-
                 </div>
-
             </footer>
-
         </div>
-
         <?php // all js scripts are loaded in library/bones.php ?>
         <?php wp_footer(); ?>
-
     </body>
-
 </html> <!-- end of site. what a ride! -->
